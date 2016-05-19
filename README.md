@@ -2,6 +2,7 @@
 
 
  1.What is latest iOS version?
+
 		IOS - 6.1.3 (updated on 5/15/13 3:15 AM
 		Pacific Daylight Time)
 		2.What is latest Xcode version?
@@ -10,13 +11,16 @@
 
 
 3.What is latest mac os version?
+
 	 Mac- Mountain Lion (updated on 5/15/13 3:15 AM
 	Pacific Daylight Time)
 
 4.What is iPad screen size?
+
 	1024X768
 
 5.what is iPhone screen size?
+
 	320X480
 
 6.What are the features is IOS 6?
@@ -31,27 +35,36 @@
 	8.Camera with panorama . 
 
 7.Who invented Objective c?
-Broad cox and Tom Love
+
+	Broad cox and Tom Love
 
 8.What is Cococa and cocoa touch?
-Cocoa is for Mac App development  and cocoa touch is for apples touch devices - that provide all development environment 
+
+	Cocoa is for Mac App development  and cocoa touch is for apples touch devices - that provide all development environment 
 
 9.What is Objective c?
-*Objective-C is a reflective, object-oriented programming language which adds Smalltalk-style messaging to the C programming language. strictly superset of c.
+
+	*Objective-C is a reflective, object-oriented programming language which adds Smalltalk-style messaging to the C programming language. strictly superset of c.
 
 10. how declare methods in Objective c? and how to call them?
- - (return_type)methodName:(data_type)parameter_name : (data_type)parameter_name
+
+	 - (return_type)methodName:(data_type)parameter_name : (data_type)parameter_name
 
 11. What is property in Objective c?
-Property allow declared variables with specification like atomic/nonatmic, or retain/assign 
+
+	Property allow declared variables with specification like atomic/nonatmic, or retain/assign 
 
 12.What is meaning of "copy" keyword?
-copy object during assignment and increases retain count by 1
+
+	copy object during assignment and increases retain count by 1
+
 13.What is meaning of "readOnly" keyword?
- Declare read only object / declare only getter method
+
+	 Declare read only object / declare only getter method
 
 14.What is meaning of "retain" keyword?
-Specifies that retain should be invoked on the object upon assignment. takes ownership of an object
+
+	Specifies that retain should be invoked on the object upon assignment. takes ownership of an object
 15.What is meaning of "assign" keyword?
 Specifies that the setter uses simple assignment. Uses on attribute of scalar type like float,int.
 16.What is meaning of "atomic" keyword?
