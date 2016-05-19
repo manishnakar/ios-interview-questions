@@ -3,11 +3,11 @@
 
  1.What is latest iOS version?
 
-		IOS - 6.1.3 (updated on 5/15/13 3:15 AM
-		Pacific Daylight Time)
-		2.What is latest Xcode version?
-		Xcode- 4.6.2 (updated on 5/15/13 3:15 AM
-		Pacific Daylight Time)
+		IOS - 6.1.3 (updated on 5/15/13 3:15 AM Pacific Daylight Time)
+
+2.What is latest Xcode version?
+
+		Xcode- 4.6.2 (updated on 5/15/13 3:15 AM Pacific Daylight Time)
 
 
 3.What is latest mac os version?
@@ -65,40 +65,61 @@
 14.What is meaning of "retain" keyword?
 
 	Specifies that retain should be invoked on the object upon assignment. takes ownership of an object
+
 15.What is meaning of "assign" keyword?
-Specifies that the setter uses simple assignment. Uses on attribute of scalar type like float,int.
+
+	Specifies that the setter uses simple assignment. Uses on attribute of scalar type like float,int.
+
 16.What is meaning of "atomic" keyword?
-"atomic", the synthesized setter/getter will ensure that a whole value is always returned from the getter or set by the setter, only single thread can access variable to get or set value at a time
+
+	"atomic", the synthesized setter/getter will ensure that a whole value is always returned from the getter or set by the setter, only single thread can access variable to get or set value at a time
+
 17.What is meaning of "nonatomic" keyword?
-In non atomic no such guaranty that value is returned from variable is same that setter sets. at same time
+
+	In non atomic no such guaranty that value is returned from variable is same that setter sets. at same time
 
 18.What is difference between "assign" and "retain" keyword?
 
-Retain -Specifies that retain should be invoked on the object upon assignment. takes ownership of an object
-Assign - Specifies that the setter uses simple assignment. Uses on attribute of scalar type like float,int.
+	Retain -Specifies that retain should be invoked on the object upon assignment. takes ownership of an object
+	Assign - Specifies that the setter uses simple assignment. Uses on attribute of scalar type like float,int.
 
 19.What is meaning of "synthesize" keyword ?
-ask the compiler to generate the setter and getter  methods according to the specification in the declaration
+
+	ask the compiler to generate the setter and getter  methods according to the specification in the declaration
+
 20.What is "Protocol" on objective c?
-A protocol declares methods that can be implemented by any class. Protocols are not classes themselves. They simply define an interface that other objects are responsible for implementing. Protocols have many advantages. The idea is to provide a way for classes to share the same method and property declarations without inheriting them from a common ancestor
+
+	A protocol declares methods that can be implemented by any class. Protocols are not classes themselves. They simply define an interface that other objects are responsible for implementing. Protocols have many advantages. The idea is to provide a way for classes to share the same method and property declarations without inheriting them from a common ancestor
+
 21.What is use of UIApplication class?
-The UIApplication class implements the required behavior of an application. 
+
+	The UIApplication class implements the required behavior of an application. 
+
 22.What compilers apple using ?
-The Apple compilers are based on the compilers of the GNU Compiler Collection.
+
+	The Apple compilers are based on the compilers of the GNU Compiler Collection.
+
 23.What is synchronized() block in objective c? what is the use of that?
-The @synchronized()directive locks a section of code for use by a single thread. Other threads are blocked until the thread exits the protected code.
+
+	The @synchronized()directive locks a section of code for use by a single thread. Other threads are blocked until the thread exits the protected code.
+
 24. What is the "interface" and "implementation"?
-interface declares the behavior of class and implementation defines the behavior of class. 
+
+	interface declares the behavior of class and implementation defines the behavior of class. 
 
 25.What is "private", "Protected" and "Public" ?
-private - limits the scope class variable to the class that declares it.
-protected - Limits instance variable scope to declaring and inheriting classes.
-public - Removes restrictions on the scope of instance variables
+
+	private - limits the scope class variable to the class that declares it.
+	protected - Limits instance variable scope to declaring and inheriting classes.
+	public - Removes restrictions on the scope of instance variables
 
 26. What is the use of "dynamic" keyword?
-Instructs the compiler not to generate a warning if it cannot find implementations of accessor methods associated with the properties whose names follow.
+
+	Instructs the compiler not to generate a warning if it cannot find implementations of accessor methods associated with the properties whose names follow.
+
 27.What is "Delegate" ?
-A delegate is an object that will respond to pre-chosen selectors (function calls) at some point in the future., need to implement the protocol method by the delegate object.
+
+	A delegate is an object that will respond to pre-chosen selectors (function calls) at some point in the future., need to implement the protocol method by the delegate object.
 28.What is "notification"?
 provides a mechanism for broadcasting information within a program, using notification we can send message to other object by adding observer .
 
